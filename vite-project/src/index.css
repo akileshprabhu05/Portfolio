@@ -1,3 +1,25 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root{
+    --black-gradient: linear-gradient(
+        144.39deg,#fff -278.56%,#6d6d6d -78.47%,#1110d1 91.61%  
+    );
+    --card-shadow:0px 20px 100px -10px rgba(66,71,91,0.1);
+}
+*{
+    scroll-behavior :smooth;
+}
+.hov-div{
+    transition: all 0.2s;
+}
+.hov:hover{
+    background-image: url('https://i.postimg.cc/3wG6hNmy/MERN-STACK-DEVELOPEMENT.jpg');
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+    color: rgb(255, 255, 255);
+    background-color: rgba(38,45,57,255);
+}
+
